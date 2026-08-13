@@ -6,7 +6,7 @@ app.use(express.json());
 
 // 1. GET / (Stretch goal)
 app.get('/', (req, res) => {
-  res.send('Welcome to the Bookstore API!');
+  res.status(200).send('Welcome to the Bookstore API!');
 });
 
 // 2. GET /api/health
